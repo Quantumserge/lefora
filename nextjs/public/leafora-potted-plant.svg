@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" fill="none">
+  <defs>
+    <linearGradient id="pot" x1="174" y1="270" x2="254" y2="389" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F7ED"/>
+      <stop offset="1" stop-color="#D8DECC"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="80" y1="80" x2="300" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#719263"/>
+      <stop offset="1" stop-color="#35583A"/>
+    </linearGradient>
+  </defs>
+  <circle cx="219" cy="205" r="164" fill="#E7EBDD"/>
+  <g stroke="#35583A" stroke-linecap="round" stroke-width="5">
+    <path d="M210 291C209 235 199 178 176 101M210 291c8-63 27-125 74-187M209 291c-28-50-67-91-113-115M211 291c38-43 83-67 133-82M209 291c-5-71 0-146 22-220"/>
+  </g>
+  <g stroke="#D6E0CE" stroke-linecap="round" stroke-width="3" opacity=".92">
+    <path d="M177 103c-15 34-38 49-72 48 15-36 39-53 72-48Z"/>
+    <path d="M174 111c-22 14-43 26-68 40M282 105c-8 35 2 60 33 79 10-38 0-64-33-79Z"/>
+    <path d="m282 108 28 69M96 176c27 26 38 53 28 87-31-24-42-52-28-87Z"/>
+    <path d="m98 181 23 72M344 210c-15 32-15 61 5 88 21-32 21-61-5-88Z"/>
+    <path d="m343 215 5 73M231 72c-25 28-31 57-17 88 28-27 33-56 17-88Z"/>
+    <path d="m229 77-12 72"/>
+  </g>
+  <g fill="url(#leaf)">
+    <path d="M176 101c-24-25-29-54-15-88 34 24 43 52 15 88Z"/>
+    <path d="M176 105c-38 2-64-13-79-45 39-6 65 10 79 45Z"/>
+    <path d="M282 105c1-38 18-63 51-76 3 39-14 64-51 76Z"/>
+    <path d="M284 108c30 14 47 38 50 75-37-10-54-34-50-75Z"/>
+    <path d="M96 176c-34-12-53-35-57-71 38 8 58 31 57 71Z"/>
+    <path d="M99 179c-12 34-35 52-72 54 9-38 33-56 72-54Z"/>
+    <path d="M344 210c24-30 52-41 88-29-20 34-48 44-88 29Z"/>
+    <path d="M344 213c7 36-5 64-37 84-9-39 3-67 37-84Z"/>
+    <path d="M231 72c-5-35 8-62 40-81 11 38 0 66-40 81Z"/>
+    <path d="M230 75c-34-14-51-39-50-76 37 11 55 36 50 76Z"/>
+  </g>
+  <ellipse cx="210" cy="287" rx="63" ry="13" fill="#AEB99F"/>
+  <path d="M151 287h118l-13 100a12 12 0 0 1-12 10h-68a12 12 0 0 1-12-10l-13-100Z" fill="url(#pot)"/>
+  <path d="M151 287c17 10 37 15 59 15s43-5 59-15" stroke="#B6C1AA" stroke-width="4"/>
+  <ellipse cx="210" cy="389" rx="38" ry="5" fill="#C8D0BE" opacity=".7"/>
+</svg>

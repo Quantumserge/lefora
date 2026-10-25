@@ -1,0 +1,19 @@
+Leafora Nursery — Windows quick start
+
+1. Install Python 3.11+ and Node.js 20+.
+2. Extract this folder.
+3. Open PowerShell in the extracted folder and run:
+
+   .\start-windows.ps1
+
+4. Open http://localhost:3000/nursery
+
+The first start installs missing dependencies and loads the committed
+Sunflower (SuperOrange) measurements. The app is a Progressive Web App (PWA);
+in a supported browser, use its Install app option to add it to the device.
+Keep the PowerShell window open while using the app. The local database is
+created in this folder and remains there between runs.
+
+This download includes the app source and backend. It is not a standalone APK.
+Installing the PWA on Android from another device requires hosting it over
+HTTPS so the phone can reach both the web app and its backend.

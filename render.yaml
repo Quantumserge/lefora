@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: plant-readiness
+    runtime: docker
+    plan: 1c-2g
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    autoDeployTrigger: "off"
+    healthCheckPath: /api/plants
+    envVars:
+      - key: PYTHON_BACKEND_URL
+        value: http://127.0.0.1:8000
+      - key: PLANT_READINESS_DB_PATH
+        value: /var/data/plant_readiness.db
+    disk:
+      name: plant-readiness-data
+      mountPath: /var/data
+      sizeGB: 1

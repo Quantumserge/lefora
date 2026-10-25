@@ -1,0 +1,19 @@
+import type { NextApiRequest, NextApiResponse } from 'next'
+import axios from 'axios'
+
+const BACKEND = process.env.PYTHON_BACKEND_URL || 'http://127.0.0.1:8000'
+
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  if (req.method !== 'GET') {
+    res.setHeader('Allow', 'GET')
+    return res.status(405).json({ error: 'Method Not Allowed' })
+  }
+  try {
+    const result = await axios.get(`${BACKEND}/api/nursery`)
+    return res.status(200).json(result.data)
+  } catch (error: any) {
+    return res.status(error.response?.status || 502).json(
+      error.response?.data || { error: 'Nursery service is unavailable. Start the Flask backend.' },
+    )
+  }
+}

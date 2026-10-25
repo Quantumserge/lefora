@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="980" viewBox="0 0 760 980" fill="none">
+  <g opacity=".48" stroke="#76a98a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M512 1000C492 802 525 638 573 476c39-131 81-259 97-390" stroke-width="8"/>
+    <path d="M534 854c-115-50-188-128-218-239 101 30 174 89 218 181" fill="#dcebe0" stroke-width="4"/>
+    <path d="M553 744c115-65 180-155 193-271-98 44-162 116-192 216" fill="#e2eee5" stroke-width="4"/>
+    <path d="M574 601c-90-71-143-160-155-267 82 45 137 111 164 199" fill="#dcebe0" stroke-width="4"/>
+    <path d="M602 474c88-69 138-158 148-266-80 43-133 108-157 196" fill="#e2eee5" stroke-width="4"/>
+    <path d="M631 333c-65-66-98-143-96-231 60 43 97 101 111 174" fill="#dcebe0" stroke-width="4"/>
+    <path d="M658 210c65-62 101-135 107-218-60 39-98 94-116 164" fill="#e2eee5" stroke-width="4"/>
+    <path d="M337 615c-90-91-139-202-145-333 83 58 136 139 159 242" fill="#e7f0e9" stroke-width="4"/>
+    <path d="M307 452c-88-42-150-108-187-198 83 21 146 67 190 139" fill="#dcebe0" stroke-width="4"/>
+    <path d="M249 317c-73-57-116-131-128-221 67 36 113 90 139 161" fill="#e2eee5" stroke-width="4"/>
+    <path d="M142 225c-42-52-61-111-56-177 40 35 64 79 72 133" fill="#dcebe0" stroke-width="4"/>
+  </g>
+</svg>
