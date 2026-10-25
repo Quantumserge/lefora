@@ -63,6 +63,20 @@ backend, a Next.js frontend, and a database/repository layer.
 - The intended user workflow includes choosing a species, viewing available
   measurement information, obtaining a prediction, and providing feedback.
 
+### Standalone Android client
+
+`android/` contains an installable Android client that bundles its interface in
+the APK. It stores nursery plants, observations, prediction snapshots, transplant
+records, and photos on that phone; it does not call the Flask backend and does
+not synchronize records between devices. Weather place search and forecasts are
+requested directly from Open-Meteo when internet is available. The Android
+client currently exposes only the Super Orange reference species because that
+is the only species in the committed measured cohort. Its day-33 estimate is
+provisional and based on the successful cohort's final observation day plus the
+reported day-after transplant assumption. It is not a validated readiness
+model. Captured images are photo records, not species recognition or automatic
+height/soil-moisture measurements.
+
 The precise responsibilities, schemas, and integration points of existing
 modules must be understood from the repository itself. This description provides
 architectural context; it is not a guarantee that every capability listed below
